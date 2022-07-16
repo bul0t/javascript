@@ -1,2 +1,4 @@
-# javascript
+# JavaScript
 Руководство JavaScript
+
+- module
