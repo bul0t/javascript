@@ -4,7 +4,7 @@
 - array (перебирающие методы массивов)
     - forEach()
 - async
-    - AJAX
+    - AJAX (XMLHttpRequest)
     - Promise/Fetch
     - EventLoop
     - async/await
