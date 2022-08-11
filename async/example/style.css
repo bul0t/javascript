@@ -1,0 +1,86 @@
+/**
+* https://www.youtube.com/watch?v=1iysNUrI3lw - автокомплит, поиск по свойству и вывод
+* https://codepen.io/sthadeep/pen/GRWEdMo - постраничная навигация
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+/* Общие стили */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button {
+    padding: 4px 8px;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Сетка */
+.container {
+    display: flex;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.col {
+    margin-right: 16px;
+    width: 300px;
+}
+
+.col:last-child {
+    margin-right: 0;
+    width: 900px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .button {
+    margin-bottom: 8px;
+}
+
+/* .content {} */
+
+/* Список элементов */
+/* .list {} */
+
+.list__element {
+    background-color: #ecf0f1;
+    padding: 16px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.list__img {
+    margin-right: 16px;
+}
+
+.list__description {
+    margin-right: 16px;
+}
+
+.list__description>div {
+    margin-bottom: 8px;
+}
+
+.list__count {
+    display: flex;
+}
+.list__count button {
+    padding: 4px 8px;
+}
+.list__count input {
+    width: 50px;
+}

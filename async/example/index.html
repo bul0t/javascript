@@ -8,10 +8,34 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="content">
-        <button class="button button--start">Отправить</button>
-        <div class="list"></div>
-    </div>
+
+    <div class="wrap">
+        <div class="container">
+            <div class="col">
+                <h1>Каталог Автоальфа</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col">
+                <div class="sidebar">
+                    <button class="button button--az">А - Я</button>
+                    <button class="button button--za">Я - А</button>
+                    <button class="button button--price-a">Цена от наименьшего</button>
+                    <button class="button button--price-z">Цена от наибольшего</button>
+                    <button class="button button--show-10">Показать 10</button>
+                    <button class="button button--show-30">Показать 30</button>
+                    <button class="button button--show-all">Показать все</button>
+                    <button class="button button--show-stock">Показать по наличию на складе</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content">
+                    <div class="list"></div>
+                </div>
+            </div>
+        </div> <!-- container -->
+    </div> <!-- wrap -->
+
     <script src="xmlhttprequest.js"></script>
 </body>
 </html>

@@ -25,10 +25,17 @@ const arrJSON = [
     },
 ]
 
-const arrName = []
+const arrNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const newArrNumber = []
 
-arrJSON.forEach(function(elem, index, array) {
-    arrName.push(elem.name)
+arrNumber.map(function() {
+    
 })
 
-console.log(arrName)
+// const arrName = []
+
+// arrJSON.forEach(function(elem, index, array) {
+//     arrName.push(elem.name)
+// })
+
+// console.log(arrName)
