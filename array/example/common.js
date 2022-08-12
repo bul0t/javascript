@@ -1,11 +1,12 @@
-const arrJSON = [
+let arrJSON = [
     {
         "id": 0,
         "name": "Ivan",
         "age": 20,
         "email": "ivan@mail.ru",
         "isCar": true,
-        "work": "day"
+        "work": "day",
+        "stack": ["html", "css", "js"]
     },
     {
         "id": 1,
@@ -13,7 +14,8 @@ const arrJSON = [
         "age": 21,
         "email": "petr@mail.ru",
         "isCar": false,
-        "work": "day"
+        "work": "day",
+        "stack": ["html", "css", "php"]
     },
     {
         "id": 2,
@@ -21,21 +23,14 @@ const arrJSON = [
         "age": 22,
         "email": "sidor@mail.ru",
         "isCar": true,
-        "work": "night"
+        "work": "night",
+        "stack": ["html", "php", "mysql"]
     },
 ]
 
-const arrNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-const newArrNumber = []
+const arr = arrJSON.reduce(function(a, elem) {
+    // return a.concat(elem.stack)
+    return [...a, ...elem.stack]
+}, [])
 
-arrNumber.map(function() {
-    
-})
-
-// const arrName = []
-
-// arrJSON.forEach(function(elem, index, array) {
-//     arrName.push(elem.name)
-// })
-
-// console.log(arrName)
+console.log(arr) // [ "html", "css", "js", "html", "css", "php", "html", "php", "mysql" ]
