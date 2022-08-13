@@ -2,11 +2,18 @@
 Руководство JavaScript
 
 - array (перебирающие методы массивов)
-    - forEach()
+    - forEach(),
+    - map(),
+    - filter(),
+    - every(), some()
+    - reduce(), reduceRight()
 - async
-    - AJAX (XMLHttpRequest)
-    - Promise/Fetch
-    - EventLoop
+    - AJAX (XMLHttpRequest),
+    - Callback hell,
+    - fetch() => Promise,
+    - Потребление промиса
+    - EventLoop,
+    - new Promise
     - async/await
 - module
     - IIFE,

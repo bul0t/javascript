@@ -1,7 +1,10 @@
 # Асинхронный JavaScript
-- AJAX
-- fetch/then
-- Promise
+- AJAX (XMLHttpRequest),
+- Callback hell,
+- fetch() => Promise, создание промиса через функцию fetch()
+- Потребление промиса
+- EventLoop,
+- new Promise
 - async/await
 
 Цель асинхронного JavaScript - это работа с длительными задачами, которые выполняются в фоновом режиме. Наиболее частая задача асинхронного JavaScript это извлечение данных с удаленных серверов (AJAX-вызовы, API). 

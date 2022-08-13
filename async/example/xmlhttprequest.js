@@ -50,7 +50,7 @@ const buttonShow10 = document.querySelector('.button--show-10')
 const buttonShow30 = document.querySelector('.button--show-30')
 const buttonShowAll = document.querySelector('.button--show-all')
 
-const list = document.querySelector('.list')
+const list = document.querySelector('.list') // Элемент страницы куда будем выводить данные, полученные через AJAX
 
 const request = new XMLHttpRequest() // Создаём AJAX запрос
 request.open('GET', 'data.json') // Открываем AJAX-запрос
