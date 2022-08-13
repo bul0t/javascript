@@ -2,7 +2,7 @@
 - AJAX (XMLHttpRequest),
 - Callback hell,
 - fetch() => Promise, создание промиса через функцию fetch()
-- Потребление промиса
+- Потребление промиса, then()
 - EventLoop,
 - new Promise
 - async/await

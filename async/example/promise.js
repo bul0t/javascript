@@ -1,3 +1,3 @@
-// Создание AJAX-запроса, открытие (GET), отправка
 const request = fetch(`data.json`)
-console.log(request)
+    .then( response => response.json() )
+    .then( data => console.log(data) )
