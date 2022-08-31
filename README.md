@@ -1,6 +1,8 @@
 # JavaScript
 Руководство JavaScript
 
+- function
+    - arguments
 - array (перебирающие методы массивов)
     - forEach(),
     - map(),

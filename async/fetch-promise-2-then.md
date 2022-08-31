@@ -1,6 +1,8 @@
 # Потребление промиса, then()
 Потребление промиса возвращаемого фнкцией `fetch()`.
 
+Пример:
+
     const request = fetch(`data.json`)
         .then( response => response.json() )
         .then( data => console.log(data) )
