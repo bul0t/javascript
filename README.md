@@ -2,22 +2,39 @@
 Руководство JavaScript
 
 - function
-    - arguments
+  - псевдомассив arguments
+    - преобразование пвевдомассива в массив
+  - виды функций
+    - function declaration
+    - function expression
+    - named functon expression
+    - рекурсия
+  - this
+    - контекст вызова
+  - замыкание
+    - область видимости
+    - лексическое окружение
+  - модуль IIFE
 - array (перебирающие методы массивов)
-    - forEach(),
-    - map(),
-    - filter(),
-    - every(), some()
-    - reduce(), reduceRight()
+  - forEach(),
+  - map(),
+  - filter(),
+  - every(), some()
+  - reduce(), reduceRight()
+- object (привязка контекста)
+  - call
+  - apply
+  - bind
+  - каррирование
 - async
-    - AJAX (XMLHttpRequest),
-    - Callback hell,
-    - fetch() => Promise,
-    - Потребление промиса, then()
-    - EventLoop,
-    - new Promise
-    - async/await
+  - AJAX (XMLHttpRequest),
+  - Callback hell,
+  - fetch() => Promise,
+  - Потребление промиса, then()
+  - EventLoop,
+  - new Promise
+  - async/await
 - module
-    - IIFE,
-    - Common JS,
-    - ES6
+  - IIFE,
+  - Common JS,
+  - ES6
