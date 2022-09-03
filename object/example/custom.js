@@ -1,12 +1,13 @@
-var user = {
-  data: [
-    {name: 'Иван'},
-    {name: 'Петр'},
-    {name: 'Сидор'},
-  ],
-  showFirst: function(event) {
-    console.log(this.data[0].name)
+function greet(gender, age, name) {
+  var salutation = gender === 'male' ? 'Mr. ' : 'Ms. '
+  if(age > 25) {
+    return 'Hello, ' + salutation + name + '.'
+  } else {
+    return 'Hey, ' + name + '.'
   }
 }
 
-document.getElementById('btn').addEventListener('click', user.showFirst.bind(user)) // Иван
+var greetAnAdultMale = greet.bind(null, 'male', 45)
+console.log(greetAnAdultMale('Иван'))
+var greetAYaoungdter = greet.bind(null, 'male', 15)
+console.log(greetAYaoungdter('Петя'))

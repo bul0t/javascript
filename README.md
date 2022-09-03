@@ -38,3 +38,16 @@
   - IIFE,
   - Common JS,
   - ES6
+
+## ES6
+- let, const
+- Spread, REST
+- Template string
+- Arrow function
+- for ... of
+- Object, Class, Inheritance
+- Array destructuring (деструктурирующее присваивание массивов)
+- Object destructuring (деструктурирующее присваивание объектов)
+- Symbols
+- Promise
+- Async/await
