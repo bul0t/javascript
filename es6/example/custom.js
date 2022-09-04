@@ -1,5 +1,7 @@
-function foo(a, ...REST) {
-  console.log(a, REST)
-}
+const name = 'Ivan'
+console.log(toUpperCase`Hello, ${name}!`)
 
-foo(1, 2, 3, 4, 5) // 1, [ 2, 3, 4, 5 ]
+function toUpperCase(litArr, val) {
+  console.log(litArr, val) // Array [ "Hello, ", "!" ] Ivan
+  return litArr[0] + val.toUpperCase() + litArr[1]
+}
