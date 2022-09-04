@@ -59,3 +59,6 @@ console.log(foo(1, 2, 3)) // Array(3) [ 1, 2, 3 ]
 
     console.log(foo(' ', 1, 2, 3))        // 1 2 3
     console.log(typeof foo(' ', 1, 2, 3)) // string
+
+## Разное
+В стрелочных функциях, arguments отсутствует.

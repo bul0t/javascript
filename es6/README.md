@@ -13,3 +13,7 @@ ES6 - новый стандарт языка JavaScript - ECMAScript 2015.
 - Symbols
 - Promise
 - Async/await
+- Итераторы
+- Генераторы
+- Set, Map
+- Модули

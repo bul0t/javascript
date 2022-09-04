@@ -1,2 +1,5 @@
-const a = 3
-a = 4 // invalid assignment to const 'a'
+function foo(a, ...REST) {
+  console.log(a, REST)
+}
+
+foo(1, 2, 3, 4, 5) // 1, [ 2, 3, 4, 5 ]
