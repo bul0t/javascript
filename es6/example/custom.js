@@ -1,7 +1,17 @@
 const name = 'Ivan'
-console.log(toUpperCase`Hello, ${name}!`)
+const sex  = 'male'
+const age  = 23
 
-function toUpperCase(litArr, val) {
-  console.log(litArr, val) // Array [ "Hello, ", "!" ] Ivan
-  return litArr[0] + val.toUpperCase() + litArr[1]
+let user = {
+  name,
+  sex,
+  age,
+  greet() {
+    console.log(`Hello ${this.name}`)
+  },
+  get password() {
+    return this.name + this.age;
+  }
 }
+
+console.log(user.password) // Ivan23
